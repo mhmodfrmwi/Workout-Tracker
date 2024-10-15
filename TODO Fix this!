@@ -1,0 +1,42 @@
+ <!--   [x] project planning
+
+        [ ] Database Design
+            [x] Users table: store user details.
+            [x] Exercises table: store details about each exercise (name, description, category/muscle group).
+            [ ] Workouts table: store workout plan information (date, time, exercises).
+        
+        [ ] Exercise Data Seeder
+            [ ] Create a script to seed the database with a list of exercises.
+            [ ] Each exercise should include a name, description, and category or muscle group.
+            [ ] Run the script to populate the exercises table.
+        
+        [ ] User Authentication and Authorization
+            [ ] Implement user sign-up
+            [ ] Implement user login
+            [ ] Implement user logout
+        
+        [ ] CRUD Operations for Workouts
+            [ ] Implement "Create Workout" functionality
+            [ ] Implement "Update Workout" functionality
+            [ ] Implement "Delete Workout" functionality
+            [ ] Implement "List Workouts" functionality
+        
+        [ ] Workout Scheduling
+            [ ] Add the ability for users to schedule workouts for specific dates and times.
+            [ ] Validate that scheduled workouts do not conflict with existing ones.
+        
+        [ ] Reports Generation
+            [ ] Implement a feature to generate reports on past workouts.
+            [ ] Track user progress over time (e.g., improvements in exercise weights or repetitions).
+        
+        [ ] Security Implementation
+            [ ] Secure all API endpoints with JWT authentication.
+            [ ] Ensure that users can only access their own workout plans and data.
+        
+        [ ] Testing
+            [ ] Write unit tests for the core functionality (e.g., user authentication, CRUD operations).
+            [ ] Test edge cases and validate error handling.
+            [ ] Write integration tests for the full workflow of workout management.
+        
+        [ ] API Documentation
+ -->
